@@ -1,22 +1,5 @@
 ﻿// Задача 50. Напишите программу, которая на вход принимает позиции элемента в двумерном массиве, и возвращает значение этого элемента или же указание, что такого элемента нет.
 
-// Console.Write("Введите значение позиции i: ");
-// int i = int.Parse(Console.ReadLine()!);
-// Console.Write("Введите значение позиции j: ");
-// int j = int.Parse(Console.ReadLine()!);
-
-// int[,] array = new int[5, 10];
-
-// for (int i = 0; i < 5; i++)
-// {
-//     for (int j = 0; j < 8; j++)
-//     {
-//         array[i, j] = new Random().Next(1, 10); 
-//         Console.Write($"{array[i, j]} ");
-//     }
-//     Console.WriteLine();
-// }
-
 Console.Write("Введите количество строк: ");
 int m = int.Parse(Console.ReadLine()!);
 Console.Write("Введите количество столбцов: ");
